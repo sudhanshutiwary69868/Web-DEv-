@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: #ffffff;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      width: 350px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    button {
+      background-color: #ffc312;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #e1ab0f;
+    }
+
+    input[type="text"] {
+      width: 80%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .todo-section {
+      margin-top: 20px;
+    }
+
+    .todo-section div {
+      margin-bottom: 15px;
+    }
+
+    .todo-section input[type="text"] {
+      margin-bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Todo App</h1>
+    
+    <div class="todo-section">
+      <div>
+        <input type="text" placeholder="Enter new todo">
+        <button>Add Todo</button>
+      </div>
+      <div>
+        <input type="text" placeholder="Update existing todo">
+        <button>Update Todo</button>
+      </div>
+      <div>
+        <input type="text" placeholder="Todo ID to delete">
+        <button>Delete Todo</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
