@@ -26,7 +26,7 @@ app.put("/",function(req,res){
   for(let i=0;i<kidneys.length;i++){
     if(kidneys[i].kidneys==="unhealthy"){
       kidneys[i].kidneys="healthy"
-      updated=true;
+      updated=true
       break
     }
   }
